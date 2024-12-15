@@ -1,0 +1,11 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: nbformat in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (5.10.4)
+Requirement already satisfied: fastjsonschema>=2.15 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from nbformat) (2.20.0)
+Requirement already satisfied: jsonschema>=2.6 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from nbformat) (4.22.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /home/xmu/.local/lib/python3.10/site-packages (from nbformat) (5.7.1)
+Requirement already satisfied: traitlets>=5.1 in /home/xmu/.local/lib/python3.10/site-packages (from nbformat) (5.14.1)
+Requirement already satisfied: attrs>=22.2.0 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from jsonschema>=2.6->nbformat) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from jsonschema>=2.6->nbformat) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from jsonschema>=2.6->nbformat) (0.35.1)
+Requirement already satisfied: rpds-py>=0.7.1 in /home/xmu/anaconda3/envs/llava-next/lib/python3.10/site-packages (from jsonschema>=2.6->nbformat) (0.18.1)
+Requirement already satisfied: platformdirs>=2.5 in /home/xmu/.local/lib/python3.10/site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.1.0)

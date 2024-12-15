@@ -1,0 +1,14 @@
+accelerate launch --num_processes=1\
+  --main_process_port=29510 \
+  --num_machines=1 \
+  --gpu_ids='0' \
+  --mixed_precision=fp16 \
+  --dynamo_backend=no \
+  -m lmms_eval \
+  --model llava \
+  --model_args pretrained=liuhaotian/llava-v1.6-vicuna-7b,conv_template=vicuna_v1 \
+  --tasks textvqa\
+  --batch_size 1 \
+ --log_samples \
+  --log_samples_suffix llava_next\
+  --output_path ./logs/test/
