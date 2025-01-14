@@ -1,11 +1,9 @@
 # What Kind of Visual Tokens Do We Need? Training-Free Visual Token Pruning for Multi-Modal Large Language Models from the Perspective of Graph 
 [[paper](https://arxiv.org/abs/2501.02268)]
-<img src="https://github.com/jytmelon/G-Prune/blob/main/figures/framework.png" alt="main_image" width="95%">
-
+<img src="https://github.com/jytmelon/G-Prune/blob/main/figures/framework.jpg" alt="main_image" width="95%">
 
 ## TL
 We present **G-Prune**, a distinctive token pruning framework for multimodal large language models (MLLMs) that addresses visual token redundancy through graph-based similarity modeling. By building a similarity graph among visual tokens, GraphPrune leverages information flow to identify and retain the most representative tokens. This method strikes a harmonious balance between maintaining model performance and reducing computational cost.
-
 
 # LLaVA-NeXT Setup and Evaluation
 
@@ -31,7 +29,6 @@ Here are some example results showcasing the visualization of pruning outcomes w
     <img src="https://github.com/jytmelon/G-Prune/blob/main/figures/visualization.png" alt="stitch" width="100%">
   </div>
 </p>
-
 
 ## Environment Setup
 
