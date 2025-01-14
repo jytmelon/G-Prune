@@ -1,6 +1,6 @@
 # What Kind of Visual Tokens Do We Need? Training-Free Visual Token Pruning for Multi-Modal Large Language Models from the Perspective of Graph 
 [[paper](https://arxiv.org/abs/2501.02268)]
-<img src="https://github.com/jytmelon/G-Prune/blob/main/figures/framework.jpg" alt="main_image" width="95%">
+<img src="https://github.com/jytmelon/G-Prune/blob/main/figures/framework.png" alt="main_image" width="95%">
 
 
 ## TL
