@@ -2,7 +2,7 @@
 [[paper](https://arxiv.org/abs/2501.02268)]
 <img src="https://github.com/jytmelon/G-Prune/blob/main/figures/framework.jpg" alt="main_image" width="95%">
 
-## TL
+## Overriew
 We present **G-Prune**, a distinctive token pruning framework for multimodal large language models (MLLMs) that addresses visual token redundancy through graph-based similarity modeling. By building a similarity graph among visual tokens, GraphPrune leverages information flow to identify and retain the most representative tokens. This method strikes a harmonious balance between maintaining model performance and reducing computational cost.
 
 # LLaVA-NeXT Setup and Evaluation
@@ -61,7 +61,7 @@ To adjust the retention rate or related parameters, modify line 239 in the follo
 
 ## Citation
 
-If you find FitPrune useful, please kindly cite our paper. Thank you!
+If you find G-Prune useful, please kindly cite our paper. Thank you!
 
 ```bibtex
 @article{jiang2025kind,
