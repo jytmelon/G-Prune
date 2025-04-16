@@ -11,6 +11,7 @@ This README provides step-by-step instructions to set up the environment and run
 
 ## News
 **[2024/12/10]** Our paper **G-Prune** has been accepted to **AAAI 2025**! 🎉 
+
 **[2024/12/15]** Inference acceleration code for **LLaVA-NeXT** is now released!
 
 ## Demos
